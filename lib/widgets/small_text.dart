@@ -13,7 +13,7 @@ class SmallText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(text,
-    
+    // created small text widget
     style: TextStyle(
       fontFamily: 'Roboto',
       color: color,

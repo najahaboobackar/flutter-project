@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project/widgets/big_text.dart';
+//main page of our mess app
+//just created the outline
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({super.key});
