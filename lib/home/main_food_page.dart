@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/home/food_page_body.dart';
 import 'package:project/widgets/big_text.dart';
 import 'package:project/widgets/small_text.dart';
 //main page of our mess app
@@ -18,6 +19,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
       body:  Column(
         children: [
           Container(
+            
               child: Container(
                 margin: EdgeInsets.only(top: 45,bottom: 15),
                 padding: EdgeInsets.only(left: 20,right: 20),
@@ -36,6 +38,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                       
                       ],
                     ),
+                    
                     Center(
                       child: Container(
                         width: 45,
@@ -46,13 +49,16 @@ class _MainFoodPageState extends State<MainFoodPage> {
                           color: Color.fromARGB(255, 140, 184, 142),
                           
                         ),
+                        
                                   
                       ),
+                      
                     )
                   ],
                 ),
               )
             ),
+            FoodPageBody(),//carosal added or sliding bar is added
         ],
       ),
     );
