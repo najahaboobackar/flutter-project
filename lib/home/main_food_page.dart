@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project/widgets/big_text.dart';
+import 'package:project/widgets/small_text.dart';
 //main page of our mess app
 //just created the outline
 
@@ -26,7 +27,13 @@ class _MainFoodPageState extends State<MainFoodPage> {
                     Column(
                       children: [
                         BigText(text: "India",color: Color.fromARGB(255, 127, 167, 128),),
-                        Text("city"),
+                        Row(
+                          children: [
+                            SmallText(text: "kerala" ,color: Colors.black26,),
+                            Icon(Icons.arrow_drop_down_circle_rounded)
+                          ],
+                        )
+                      
                       ],
                     ),
                     Center(
