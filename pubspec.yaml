@@ -25,3 +25,5 @@ flutter:
         - asset: assets/fonts/Roboto-Black.ttf 
         - asset: assets/fonts/Roboto-Italic.ttf
           style: italic
+  assets:
+    - assets/image/
