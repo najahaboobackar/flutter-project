@@ -13,7 +13,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.redAccent,
+      color: Color.fromARGB(255, 235, 232, 232),
       height: 320,
       child: PageView.builder(
         controller: pageController,
@@ -28,7 +28,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
   Widget _buildPageItem(int index) {
     return Stack(
       children:[ Container(
-        height: 250,
+        height: 220,
         margin: EdgeInsets.only(left: 5, right: 5),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
@@ -36,7 +36,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
           
        image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage("assets/image/food1.jfif"),),),
+            image: AssetImage("assets/image/images.png"),),),
       ),
       Align(
         child: Container(
